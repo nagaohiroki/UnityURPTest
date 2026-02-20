@@ -26,6 +26,31 @@
 - `.editorconfig` に則ったコーディングを行う
 - テキストファイル、コードのエンコードはUTF-8 BOM形式にする
 
+## Unityパッケージ要件
+現在のUnityプロジェクトには以下の2Dゲーム開発に必要なパッケージが含まれています：
+
+**基本的なパッケージ：**
+- com.unity.render-pipelines.universal（URP）
+- com.unity.inputsystem（新しい入力システム）
+- com.unity.timeline（タイムライン機能）
+- com.unity.textmeshpro（テキスト表示）
+- com.unity.visualscripting（ビジュアルスクリプティング）
+- com.unity.modules.physics2d（2D物理演算）
+- com.unity.modules.animation（アニメーション）
+- com.unity.modules.tilemap（タイルマップ）
+- com.unity.modules.uielements（UIシステム）
+
+**開発環境パッケージ：**
+- com.unity.ide.rider（Rider IDEサポート）
+- com.unity.ide.visualstudio（Visual Studioサポート）
+- com.github.nagaohiroki.neovimforunity（Neovimエディタサポート）
+
+**推奨される追加パッケージ：**
+- 2D Sprite Shape（曲線的な2Dオブジェクト用）
+- 2D Pixel Perfect（ピクセルアートゲーム用）
+- Cinemachine（カメラ制御）
+- Post Processing（ビジュアルエフェクト）
+
 ## 実装時の注意点
 - 長時間かかる処理は実行前に提案・確認を行う
 - 段階的な実装を心がけ、動作確認を行いながら進める
